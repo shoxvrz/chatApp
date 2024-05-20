@@ -1,0 +1,44 @@
+.login {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.main {
+   border: 1px solid;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.disabled:hover {
+   cursor: not-allowed;
+}
+
+.disabled {
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: #fff;
+   border: 1px solid gray;
+
+}
+
+.abled {
+   background-color: green;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 10px;
+   border: 1px solid transparent;
+}
+
+input {
+   outline: none;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: #fff;
+   border: 1px solid gray;
+}

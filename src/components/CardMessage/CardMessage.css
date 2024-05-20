@@ -1,0 +1,21 @@
+.card{
+   display: flex;
+   justify-content: flex-start;
+   gap: 10px;
+
+
+   & > span{
+      background-color: green;
+      padding:  5px 15px;
+      border-radius: 5px;
+      color: #fff;
+      width: fit-content;
+   }
+}
+.owner{
+   justify-content: flex-end;
+
+   &>span{
+      background-color: blue;
+   }
+}
